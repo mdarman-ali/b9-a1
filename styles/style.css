@@ -232,7 +232,6 @@ section{
     width: 100%;
     max-width: 1320px;
     margin: 0px auto;
-    height: 600px;
 }
 .holiday-content h3{
     font-size: 24px;
@@ -258,4 +257,21 @@ section{
     margin-top: 0;
     margin-bottom: 64px;
 }
-
+.holiday-banner{
+    position: relative;
+}
+.first-img{
+    text-align: right;
+}
+.second-img{
+    margin-top: -10px;
+}
+.third-img{
+    position: absolute;
+    right: 300px;
+    top: 86px;
+}
+.fourth-img{
+    position: absolute;
+    top: 0;
+}
