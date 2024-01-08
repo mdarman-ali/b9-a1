@@ -224,3 +224,38 @@ section{
 
 
 /* Start Holiday Section */
+.holiday{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0px auto;
+    height: 600px;
+}
+.holiday-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 15px;
+}
+.holiday-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.holiday-color{
+    color: #f00;
+}
+.holiday-content p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 126px;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+
