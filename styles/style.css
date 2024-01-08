@@ -5,6 +5,10 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+
+
+
 /* Start Heading Section */
 .container{
     background: linear-gradient(180deg,#070211 0%,#07021100 100%), url(' ../images/Banner Image.png');
