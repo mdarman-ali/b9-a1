@@ -161,7 +161,6 @@ section{
     gap: 10px;
 }
 .btn-two:hover{
-    border-radius: 10px;
     color: #fff;
     background-color: #e10000;
 }
@@ -402,5 +401,59 @@ section{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.subscribe-button button:hover{
+    background-color: #e10000;
+    cursor: pointer;
+}
 /* End Subscribe Section */
 
+
+
+/* Start Footer Section */
+.footer-section-content{
+    padding: 120px 140px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-section{
+    width: 100%;
+    height: 609px;
+    align-items: center;
+    justify-content: center;
+    background-color: #070211;
+    margin-bottom: 0;
+    color: #fff;
+    
+}
+.address, .contact{
+    line-height: 40px;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.social-media{
+    padding: 48px 0;
+    text-align: center;
+}
+.social-media img{
+    margin-right: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #ffffff00;
+}
+.social-media img:hover{
+    border: 5px solid #ffffff43;
+    border-radius: 50%;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.unsubscribe:hover{
+    color: #f00;
+    cursor: pointer;
+}
+/* End Footer Section */
